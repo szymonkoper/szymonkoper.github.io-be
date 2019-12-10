@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 
-const PORT = 3000 // TODO: Extract to .env
+const PORT = process.env.PORT || 5000
 
 app.use(express.json())
 

@@ -18,7 +18,7 @@ const createResponseForFoundScores = scores => createResponse('Game scores found
 
 const createResponseForFoundScore = score => createResponse('Game score found', score)
 
-// RESPONSES console.error(
+// RESPONSES failure
 const createErrorForScoresNotFound = (gameId) =>
   createResponse(
     `No score found for gameId: ${gameId}`
